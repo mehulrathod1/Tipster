@@ -128,7 +128,7 @@ class _BlogViewState extends State<BlogView> {
                           size: 20,
                         ),
                         Text(
-                          '55\$/MONTH',
+                          '55\€/MONTH',
                           style: TextStyle(fontSize: 12, color: Colors.white),
                         )
                       ],
@@ -265,7 +265,7 @@ class _BlogViewState extends State<BlogView> {
                         child: SfCircularChart(
                             palette: [
                               Color(0xff095199),
-                              appThemelightPink,
+                              Color(0xff0b65bf),
                             ],
                             borderWidth: double.minPositive,
                             series: <CircularSeries>[
@@ -515,6 +515,7 @@ class _BlogViewState extends State<BlogView> {
 
 class ChartData {
   ChartData(this.x, this.y, this.color);
+
   final String x;
   final double y;
   final Color color;
@@ -522,6 +523,7 @@ class ChartData {
 
 class SalesData {
   SalesData(this.year, this.sales);
+
   final String year;
   final double sales;
 }
