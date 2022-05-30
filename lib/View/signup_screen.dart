@@ -64,7 +64,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                       GestureDetector(
                         onTap: () {
-                           Navigator.pop(context);
+                          Navigator.pop(context);
                         },
                         child: Padding(
                           padding: EdgeInsets.all(8.0),
