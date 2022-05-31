@@ -90,9 +90,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             text: TextSpan(
                                 text: 'Subdomain ',
                                 style: TextStyle(
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 16),
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold,
+                                ),
                                 children: [
                                   TextSpan(
                                       text: '*',
@@ -151,9 +151,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             text: TextSpan(
                                 text: 'Display Name ',
                                 style: TextStyle(
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 16),
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold,
+                                ),
                                 children: [
                                   TextSpan(
                                       text: '*',

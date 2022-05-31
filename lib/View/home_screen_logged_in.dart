@@ -270,11 +270,7 @@ class _HomeScreenLogInState extends State<HomeScreenLogIn>
                                                       context,
                                                       MaterialPageRoute(
                                                           builder: (context) =>
-                                                              BlogView(
-                                                                isLoggedin:
-                                                                    true,
-                                                                isUser: false,
-                                                              )));
+                                                              BlogView()));
                                                 },
                                                 child: Container(
                                                   color: Colors.transparent,
@@ -734,11 +730,7 @@ class _HomeScreenLogInState extends State<HomeScreenLogIn>
                                                       context,
                                                       MaterialPageRoute(
                                                           builder: (context) =>
-                                                              BlogView(
-                                                                isLoggedin:
-                                                                    true,
-                                                                isUser: false,
-                                                              )));
+                                                              BlogView()));
                                                 },
                                                 child: Container(
                                                   color: Colors.transparent,
