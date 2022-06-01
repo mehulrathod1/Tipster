@@ -376,6 +376,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   children: [
                     Checkbox(
                         value: termsandcond,
+                        fillColor: ,
                         onChanged: (v) {
                           setState(() {
                             termsandcond = v!;
